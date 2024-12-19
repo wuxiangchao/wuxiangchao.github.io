@@ -14,7 +14,7 @@
   <entry>
     <title>Rust 基本数据类型</title>
     <url>/2024/12/19/Rust-%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
-    <content><![CDATA[<p>Rust 每个值都有确切的数据类型, 总的来说可以分为两类: 借本类型和复合类型。基本类型意味着它们往往是一个最小化原子类型，无法结构为其它类型。</p>
+    <content><![CDATA[<h1 id="Rust-基本数据类型概述"><a href="#Rust-基本数据类型概述" class="headerlink" title="Rust 基本数据类型概述"></a>Rust 基本数据类型概述</h1><p>Rust 每个值都有确切的数据类型, 总的来说可以分为两类: 借本类型和复合类型。基本类型意味着它们往往是一个最小化原子类型，无法结构为其它类型。</p>
 <span id="more"></span>
 <p>一般来说Rust包含以下基本类型:</p>
 <ul>
