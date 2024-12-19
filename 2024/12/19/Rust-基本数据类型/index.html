@@ -29,7 +29,7 @@
 <meta property="og:description" content="Rust 基本数据类型概述Rust 每个值都有确切的数据类型, 总的来说可以分为两类: 借本类型和复合类型。基本类型意味着它们往往是一个最小化原子类型，无法结构为其它类型。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-12-19T01:25:11.000Z">
-<meta property="article:modified_time" content="2024-12-19T09:37:00.547Z">
+<meta property="article:modified_time" content="2024-12-19T09:58:00.188Z">
 <meta property="article:author" content="Xianagchao.Wu">
 <meta property="article:tag" content="Rust">
 <meta name="twitter:card" content="summary">
@@ -213,7 +213,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-12-19 09:25:11 / 修改时间：17:37:00" itemprop="dateCreated datePublished" datetime="2024-12-19T09:25:11+08:00">2024-12-19</time>
+      <time title="创建时间：2024-12-19 09:25:11 / 修改时间：17:58:00" itemprop="dateCreated datePublished" datetime="2024-12-19T09:25:11+08:00">2024-12-19</time>
     </span>
 
   
@@ -243,9 +243,10 @@
 <li>单元类型: 即<code>()</code>, 其唯一的值也是()</li>
 </ul>
 <h1 id="类型推导与标注"><a href="#类型推导与标注" class="headerlink" title="类型推导与标注"></a>类型推导与标注</h1><p>与Python、JavaScript等动态语言不同，Rust是一门静态类型语言，也就是编译器必须再编译期知道所有变量的类型，但这不意味着你需要为每个变量指定类型，<br>因为<strong>Rust编译器可以根据变量值和上下文的使用方式来自动推导出变量的类型</strong>，但在某些情况下，它无法推导出变量类型，需要手动去给与一个类型标注。</p>
-<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">guess</span> = <span class="string">&quot;32&quot;</span>.<span class="title function_ invoke__">parse</span>().<span class="title function_ invoke__">except</span>(<span class="string">&quot;Not a </span></span><br></pre></td></tr></table></figure>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">guess</span> = <span class="string">&quot;32&quot;</span>.<span class="title function_ invoke__">parse</span>().<span class="title function_ invoke__">except</span>(<span class="string">&quot;Not a number&quot;</span>)</span><br></pre></td></tr></table></figure>
 <p>上述代码编译器无法推导出想要的类型，编译器给出如下报错:</p>
 <figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">[Running] cargo run -q --release <span class="string">&quot;i:\SourceCode\Rust\data_deep\src\main.rs&quot;</span></span><br><span class="line">error[E0284]: <span class="keyword">type</span> <span class="title class_">annotations</span> needed</span><br><span class="line"> -<span class="punctuation">-&gt;</span> src/main.rs:<span class="number">2</span>:<span class="number">9</span></span><br><span class="line">  |</span><br><span class="line"><span class="number">2</span> |     <span class="keyword">let</span> <span class="variable">guess</span> = <span class="string">&quot;32&quot;</span>.<span class="title function_ invoke__">parse</span>().<span class="title function_ invoke__">expect</span>(<span class="string">&quot;not a number&quot;</span>);</span><br><span class="line">  |         ^^^^^        ----- <span class="keyword">type</span> <span class="title class_">must</span> be known at this point</span><br><span class="line">  |</span><br><span class="line">  = note: cannot satisfy `&lt;_ <span class="keyword">as</span> FromStr&gt;::<span class="literal">Err</span> == _`</span><br><span class="line">help: consider giving `guess` an explicit <span class="keyword">type</span></span><br><span class="line">  |</span><br><span class="line"><span class="number">2</span> |     <span class="keyword">let</span> <span class="variable">guess</span>: <span class="comment">/* Type */</span> = <span class="string">&quot;32&quot;</span>.<span class="title function_ invoke__">parse</span>().<span class="title function_ invoke__">expect</span>(<span class="string">&quot;not a number&quot;</span>);</span><br><span class="line">  |              ++++++++++++</span><br><span class="line"></span><br><span class="line">For more information about this error, <span class="keyword">try</span> `rustc --explain E0284`.</span><br><span class="line">error: could not compile `data_deep` (bin <span class="string">&quot;data_deep&quot;</span>) due to <span class="number">1</span> previous error</span><br><span class="line"></span><br><span class="line">[Done] exited with code=<span class="number">101</span> <span class="keyword">in</span> <span class="number">0.605</span> seconds</span><br></pre></td></tr></table></figure>
+<p>正确的写法应该是:<br><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">guess</span>: <span class="type">i32</span> = <span class="string">&quot;32&quot;</span>.<span class="title function_ invoke__">parse</span>().<span class="title function_ invoke__">except</span>(<span class="string">&quot;Not a number&quot;</span>)</span><br></pre></td></tr></table></figure></p>
 <h2 id="数值类型"><a href="#数值类型" class="headerlink" title="数值类型"></a>数值类型</h2><blockquote>
 <p>Rust使用一种相对传统的语法来创建整数<code>(1, 2, ...)</code>和浮点数<code>(1.0, 1.1, ...)</code>.</p>
 </blockquote>
