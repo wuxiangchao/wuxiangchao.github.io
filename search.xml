@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Attention is all your need论文阅读</title>
+    <url>/2024/12/19/Attention-is-all-your-need%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Deep Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bundle Ajustment从理论到实践</title>
+    <url>/2024/12/22/Bundle-Ajustment%E4%BB%8E%E7%90%86%E8%AE%BA%E5%88%B0%E5%AE%9E%E8%B7%B5/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Optimization</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux 源码趣读 - 02</title>
+    <url>/2024/12/22/Linux-%E6%BA%90%E7%A0%81%E8%B6%A3%E8%AF%BB-02/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux 源码趣读 - 01</title>
+    <url>/2024/12/22/Linux-%E6%BA%90%E7%A0%81%E8%B6%A3%E8%AF%BB-01/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C++ 泛型编程</title>
     <url>/2024/12/19/C-%E6%B3%9B%E5%9E%8B%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[<p>这是一篇关于c++泛型编程的文章</p>
@@ -9,6 +41,23 @@
 ]]></content>
       <tags>
         <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《你当像鸟飞向你的山》读书笔记</title>
+    <url>/2024/12/19/%E3%80%8A%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%90%91%E4%BD%A0%E7%9A%84%E5%B1%B1%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<span id="more"></span>]]></content>
+      <tags>
+        <tag>读书笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Rust 所有权机制</title>
+    <url>/2024/12/19/Rust-%E6%89%80%E6%9C%89%E6%9D%83%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<p>通过这篇博客深刻理解Rust的所有权机制</p>
+<span id="more"></span>]]></content>
+      <tags>
+        <tag>Rust</tag>
       </tags>
   </entry>
   <entry>
@@ -225,29 +274,12 @@
       </tags>
   </entry>
   <entry>
-    <title>Rust 所有权机制</title>
-    <url>/2024/12/19/Rust-%E6%89%80%E6%9C%89%E6%9D%83%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<p>通过这篇博客深刻理解Rust的所有权机制</p>
-<span id="more"></span>]]></content>
-      <tags>
-        <tag>Rust</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Rust-生命周期</title>
     <url>/2024/12/19/Rust-%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</url>
     <content><![CDATA[<p>通过这篇博客深刻理解Rust的生命周期</p>
 <span id="more"></span>]]></content>
       <tags>
         <tag>Rust</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《你当像鸟飞向你的山》读书笔记</title>
-    <url>/2024/12/19/%E3%80%8A%E4%BD%A0%E5%BD%93%E5%83%8F%E9%B8%9F%E9%A3%9E%E5%90%91%E4%BD%A0%E7%9A%84%E5%B1%B1%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<span id="more"></span>]]></content>
-      <tags>
-        <tag>读书笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -264,11 +296,11 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>Attention is all your need论文阅读</title>
-    <url>/2024/12/19/Attention-is-all-your-need%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/</url>
+    <title>统计学习方法-01</title>
+    <url>/2025/01/02/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-01/</url>
     <content><![CDATA[]]></content>
       <tags>
-        <tag>Deep Learning</tag>
+        <tag>机器学习</tag>
       </tags>
   </entry>
   <entry>
@@ -277,38 +309,6 @@
     <content><![CDATA[]]></content>
       <tags>
         <tag>English</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux 源码趣读 - 01</title>
-    <url>/2024/12/22/Linux-%E6%BA%90%E7%A0%81%E8%B6%A3%E8%AF%BB-01/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Bundle Ajustment从理论到实践</title>
-    <url>/2024/12/22/Bundle-Ajustment%E4%BB%8E%E7%90%86%E8%AE%BA%E5%88%B0%E5%AE%9E%E8%B7%B5/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Optimization</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux 源码趣读 - 02</title>
-    <url>/2024/12/22/Linux-%E6%BA%90%E7%A0%81%E8%B6%A3%E8%AF%BB-02/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>统计学习方法-01</title>
-    <url>/2025/01/02/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-01/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>机器学习</tag>
       </tags>
   </entry>
 </search>
