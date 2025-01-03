@@ -13,8 +13,10 @@
     <url>/2024/12/22/Bundle-Ajustment%E4%BB%8E%E7%90%86%E8%AE%BA%E5%88%B0%E5%AE%9E%E8%B7%B5/</url>
     <content><![CDATA[<h1 id="Bundle-Ajustment光束平差法概述"><a href="#Bundle-Ajustment光束平差法概述" class="headerlink" title="Bundle-Ajustment光束平差法概述"></a>Bundle-Ajustment光束平差法概述</h1><span id="more"></span>
 <h2 id="BA基本理论"><a href="#BA基本理论" class="headerlink" title="BA基本理论"></a>BA基本理论</h2><p>这是光束平差法</p>
-<script type="math/tex; mode=display">y=x+1</script><p>测试代码</p>
-<script type="math/tex; mode=display">\begin{equation} 
+<script type="math/tex; mode=display">
+y=x+1</script><p>测试代码</p>
+<script type="math/tex; mode=display">
+\begin{equation} 
     \frac{1}{2} = \int_{1}^{2}\Sigma a_{ij} \cdot b_{ij} 
 \end{equation}\label{1.1}</script><script type="math/tex; mode=display">
 \begin{bmatrix}
