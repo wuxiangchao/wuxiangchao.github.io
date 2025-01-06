@@ -18,11 +18,12 @@ y=x+1</script><p>测试代码</p>
 <script type="math/tex; mode=display">
 \begin{equation} 
     \frac{1}{2} = \int_{1}^{2}\Sigma a_{ij} \cdot b_{ij} 
-\end{equation}\label{1.1}</script><script type="math/tex; mode=display">
+\end{equation}\label{1.1}</script><script type="math/tex; mode=display">\begin{equation}
 \begin{bmatrix}
 a & b \\
 c & d
-\end{bmatrix}</script><h2 id="C-实现光束平差法"><a href="#C-实现光束平差法" class="headerlink" title="C++实现光束平差法"></a>C++实现光束平差法</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> **argv)</span></span>{</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+\end{bmatrix}
+\end{equation}</script><h2 id="C-实现光束平差法"><a href="#C-实现光束平差法" class="headerlink" title="C++实现光束平差法"></a>C++实现光束平差法</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> **argv)</span></span>{</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
         <tag>Optimization</tag>
