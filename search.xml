@@ -372,11 +372,76 @@ c & d
 <span id="more"></span>
 <h4 id="1-1-Four-ways-to-represent-a-function"><a href="#1-1-Four-ways-to-represent-a-function" class="headerlink" title="1.1 Four ways to represent a function"></a>1.1 Four ways to represent a function</h4><p>Functions arise whenever one quantity depends on another. Consider the following four situation.</p>
 <ul>
-<li>The area $A$ of a circle depends on the radius $r$ of the circle. The rule that connects $r$ and $A$ is given by the equation<br>$A=\pi r^2$. With each positive number $r$ there is associated one value of $A$, and we say that $A$ is a function of $r$.</li>
-<li>The human population of the world $P$ depends on the time $t$. The table gives estimates of the world population $P(t)$ at time $t$, for certain years. For instance,<script type="math/tex; mode=display">
+<li>A. The area $A$ of a circle depends on the radius $r$ of the circle. The rule that connects $r$ and $A$ is given by the equation<br>$A=\pi r^2$. With each positive number $r$ there is associated one value of $A$, and we say that $A$ is a function of $r$.</li>
+<li>B. The human population of the world $P$ depends on the time $t$. The table gives estimates of the world population $P(t)$ at time $t$, for certain years. For instance,</li>
+</ul>
+<script type="math/tex; mode=display">
 \begin{equation}
 P(1950) = 2,560,000,000
-\end{equation}</script>But </li>
+\end{equation}</script><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Population<br/>(millions)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1900</td>
+<td>1650</td>
+</tr>
+<tr>
+<td>1910</td>
+<td>1750</td>
+</tr>
+<tr>
+<td>1920</td>
+<td>1860</td>
+</tr>
+<tr>
+<td>1930</td>
+<td>2070</td>
+</tr>
+<tr>
+<td>1940</td>
+<td>2300</td>
+</tr>
+<tr>
+<td>1950</td>
+<td>2560</td>
+</tr>
+<tr>
+<td>1960</td>
+<td>3040</td>
+</tr>
+<tr>
+<td>1970</td>
+<td>3710</td>
+</tr>
+<tr>
+<td>1980</td>
+<td>4450</td>
+</tr>
+<tr>
+<td>1990</td>
+<td>5280</td>
+</tr>
+<tr>
+<td>2000</td>
+<td>6080</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>6870</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>But for each value of the time $t$ there is a corresponding value of $P$, and we say that $P$ is a function of $t$.</p>
+<ul>
+<li>C. The cost $C$ of mailing an envelope depends on its weight $w$. Although there is no simple formula that connects $w$ and $C$, the post office has a rule for determining $C$ when $w$ is knowen.</li>
+<li>D. The vertical acceleration $a$ of the ground as measured by a seismograph during an earthquake is a function of the elapsed time $t$.<br><img src="img.png" alt="img.png"></li>
 </ul>
 ]]></content>
       <tags>
