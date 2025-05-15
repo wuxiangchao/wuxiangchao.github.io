@@ -452,7 +452,7 @@ P(1950) = 2,560,000,000
 <blockquote>
 <p>A <strong>function</strong> $f$ is a rule that assigns to each element $x$ in a set $D$ exactly one element, called $f(x)$, in a set $E$.</p>
 </blockquote>
-<p>We usually consider functions for which the sets $D$ and $E$ are of real numbers. The set $D$ is called the <strong>domain</strong> of the function. The number $f(x)$ is the value of $f$ at $x$ and is read “$f$ of $x$.” The range of $f$ is the set off all possible values of $f(x)$ as $x$ varies throughout the domain. A </p>
+<p>We usually consider functions for which the sets $D$ and $E$ are of real numbers. The set $D$ is called the <strong>domain</strong> of the function. The number $f(x)$ is the value of $f$ at $x$ and is read “$f$ of $x$.” The <strong>range</strong> of $f$ is the set off all possible values of $f(x)$ as $x$ varies throughout the domain. A symbol that represents an arbitrary number in the domain of a function $f$ is called an <strong>independent variable</strong>. A symbol that represents a number in the range of is called a <strong>dependent variable</strong>. In example A, for instance, $r$ is the independent variable and $A$ is the dependent variable.</p>
 ]]></content>
       <tags>
         <tag>Calculus</tag>
