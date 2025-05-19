@@ -373,7 +373,7 @@ c & d
     <url>/2025/04/30/%E8%AF%BBJames-Stewart%E3%80%8ACalculus%E3%80%8B-01/</url>
     <content><![CDATA[<h2 id="James-Stewart-《Calculus》"><a href="#James-Stewart-《Calculus》" class="headerlink" title="James Stewart 《Calculus》"></a>James Stewart 《Calculus》</h2><h3 id="Chapter-1-Functions-and-Limits"><a href="#Chapter-1-Functions-and-Limits" class="headerlink" title="Chapter 1. Functions and Limits"></a>Chapter 1. Functions and Limits</h3><p>The fundamental objects that we deal with in calculus are functions.</p>
 <span id="more"></span>
-<h4 id="1-1-Four-ways-to-represent-a-function"><a href="#1-1-Four-ways-to-represent-a-function" class="headerlink" title="1.1 Four ways to represent a function"></a>1.1 Four ways to represent a function</h4><p>Functions arise whenever one quantity depends on another. Consider the following four situation.</p>
+<h4 id="1-1-Four-ways-to-represent-a-function"><a href="#1-1-Four-ways-to-represent-a-function" class="headerlink" title="1.1 Four ways to represent a function"></a>1.1 Four ways to represent a function</h4><p>Functions arise whenever one quantity depends on another. Consider the following four situations.</p>
 <ul>
 <li>A. The area $A$ of a circle depends on the radius $r$ of the circle. The rule that connects $r$ and $A$ is given by the equation $A=\pi r^2$. With each positive number $r$ there is associated one value of $A$, and we say that $A$ is a function of $r$.</li>
 <li>B. The human population of the world $P$ depends on the time $t$. The table gives estimates of the world population $P(t)$ at time $t$, for certain years. For instance,</li>
@@ -455,6 +455,8 @@ P(1950) = 2,560,000,000
 <p>We usually consider functions for which the sets $D$ and $E$ are of real numbers. The set $D$ is called the <strong>domain</strong> of the function. The number $f(x)$ is the value of $f$ at $x$ and is read “$f$ of $x$.” The <strong>range</strong> of $f$ is the set off all possible values of $f(x)$ as $x$ varies throughout the domain. A symbol that represents an arbitrary number in the domain of a function $f$ is called an <strong>independent variable</strong>. A symbol that represents a number in the range of is called a <strong>dependent variable</strong>. In example A, for instance, $r$ is the independent variable and $A$ is the dependent variable.</p>
 <p><img src="img_1.png" alt="Function flow"></p>
 <div style="text-align: center;">Figure 2. Machine diagram for a function</div>
+
+<p>It’s helpful to think of a function as a machine. If $x$ is in </p>
 ]]></content>
       <tags>
         <tag>Calculus</tag>
