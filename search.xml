@@ -636,6 +636,11 @@ P(1950) = 2,560,000,000
   <entry>
     <title>The Rust Programming Languages - 01</title>
     <url>/2025/11/06/The-Rust-Programming-Languages-01/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="The-Rust-Programming-Language"><a href="#The-Rust-Programming-Language" class="headerlink" title="The Rust Programming Language"></a>The Rust Programming Language</h1><h2 id="Chapter-1-Common-Programming-Concepts"><a href="#Chapter-1-Common-Programming-Concepts" class="headerlink" title="Chapter 1: Common Programming Concepts"></a>Chapter 1: Common Programming Concepts</h2><p>This chapter covers concepts that appear in almost every programming language and how they work in Rust.<br>Many programming languages have much in common at their core. None of the concepts</p>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>Rust</tag>
+      </tags>
   </entry>
 </search>
