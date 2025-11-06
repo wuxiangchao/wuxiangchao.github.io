@@ -562,6 +562,9 @@ P(1950) = 2,560,000,000
     <title>读约翰洛克《政府论》</title>
     <url>/2025/04/30/%E8%AF%BB%E7%BA%A6%E7%BF%B0%E6%B4%9B%E5%85%8B%E3%80%8A%E6%94%BF%E5%BA%9C%E8%AE%BA%E3%80%8B/</url>
     <content><![CDATA[]]></content>
+      <tags>
+        <tag>政治学</tag>
+      </tags>
   </entry>
   <entry>
     <title>读赫尔曼黑塞《在轮下》</title>
@@ -577,6 +580,9 @@ P(1950) = 2,560,000,000
     <title>读赫尔曼黑塞《荒原狼》</title>
     <url>/2025/04/30/%E8%AF%BB%E8%B5%AB%E5%B0%94%E6%9B%BC%E9%BB%91%E5%A1%9E%E3%80%8A%E8%8D%92%E5%8E%9F%E7%8B%BC%E3%80%8B/</url>
     <content><![CDATA[]]></content>
+      <tags>
+        <tag>人文主义</tag>
+      </tags>
   </entry>
   <entry>
     <title>读亚当斯密《国富论》-01</title>
@@ -625,6 +631,11 @@ P(1950) = 2,560,000,000
   <entry>
     <title>读康德《纯粹理性的批判》</title>
     <url>/2025/10/22/%E8%AF%BB%E5%BA%B7%E5%BE%B7%E3%80%8A%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E7%9A%84%E6%89%B9%E5%88%A4%E3%80%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>The Rust Programming Languages - 01</title>
+    <url>/2025/11/06/The-Rust-Programming-Languages-01/</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
