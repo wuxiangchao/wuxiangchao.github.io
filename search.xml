@@ -636,9 +636,9 @@ P(1950) = 2,560,000,000
   <entry>
     <title>The Rust Programming Languages - 01</title>
     <url>/2025/11/06/The-Rust-Programming-Languages-01/</url>
-    <content><![CDATA[<h1 id="The-Rust-Programming-Language"><a href="#The-Rust-Programming-Language" class="headerlink" title="The Rust Programming Language"></a>The Rust Programming Language</h1><h2 id="Chapter-1-Common-Programming-Concepts"><a href="#Chapter-1-Common-Programming-Concepts" class="headerlink" title="Chapter 1: Common Programming Concepts"></a>Chapter 1: Common Programming Concepts</h2><p>This chapter covers concepts that appear in almost every programming language and how they work in Rust.<br>Many programming languages have much in common at their core. None of the concepts</p>
+    <content><![CDATA[<p>This chapter covers concepts that appear in almost every programming language and how they work in Rust. Many programming languages have much in common at their core. None of the concepts presented in this chapter are unique to Rust, but we’ll discuss them in the context of Rust and explain the convention around using these concepts.<br>Specifically, you’ll learn about variables, basic types, functions, comments, and control flow. These foundations will be in every Rust program, and learning them early will give you a strong core to start from.</p>
 <span id="more"></span>
-]]></content>
+<h1 id="The-Rust-Programming-Language"><a href="#The-Rust-Programming-Language" class="headerlink" title="The Rust Programming Language"></a>The Rust Programming Language</h1><h2 id="Chapter-1-Common-Programming-Concepts"><a href="#Chapter-1-Common-Programming-Concepts" class="headerlink" title="Chapter 1: Common Programming Concepts"></a>Chapter 1: Common Programming Concepts</h2>]]></content>
       <tags>
         <tag>Rust</tag>
       </tags>
